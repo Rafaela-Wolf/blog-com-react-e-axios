@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './Home.css';
 
 const Home = () => {
 
@@ -21,7 +22,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div>
+    <div className="home">
       <h1>Últimos posts</h1>
       {posts.length === 0 ? <p>Carregando...</p> : (
         posts.map((post) => (
