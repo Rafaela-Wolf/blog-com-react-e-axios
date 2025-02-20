@@ -25,3 +25,13 @@ form {
     border-radius: 5px;
     border: none;
 }
+
+@media(max-width: 425px) {
+    .new-post h2 {
+        font-size: 20px;
+    }
+
+    .form-control label, input, textarea {
+        font-size: 16px;
+    }
+}

@@ -17,3 +17,9 @@
     background-color: #eb1717;
     color: #fff;
 }
+
+@media(max-width: 425px) {
+    .admin h1 {
+        font-size: 20px;
+    }
+}
